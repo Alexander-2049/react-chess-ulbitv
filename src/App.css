@@ -1,0 +1,48 @@
+.app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.board {
+    width: calc(64px * 8);
+    height: calc(64px * 8);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell img {
+    width: 48px;
+    height: 48px;
+    position: relative;
+}
+
+.black {
+    background-color: deepskyblue;
+}
+
+.white {
+    background-color: rgb(255, 219, 152);
+}
+
+.selected {
+    background-color: brown;
+}
+
+.available {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: rgb(19, 127, 19);
+}
